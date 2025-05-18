@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .navbar {
+            background-color:rgb(0, 153, 255) ;
+            height: 50px;
+            padding-top: 20px;
+        }
+        .navbar a{
+            color: white ;
+            padding: 30px;
+        }
+        .navbar a:hover{
+            color: bisque;
+        }
+        .centered {
+            display: inline-block;
+            text-align:  center;
+            padding:10px;
+            background-color: rgb(203, 182, 60);
+            border-radius: 50px;
+            height: fit-content;
+        }
+        .centered img {
+            width: 410px;
+            height: 300px;
+            border-radius: 12%;
+            padding-top: 18px;
+        }
+        .centered p{
+            font-size: 19px;
+            padding-bottom: 40px;
+            padding-top: 10px;
+        }
+        .cntered{
+            text-align: center;
+        }
+        .navbar2{
+            background-color: rgb(37, 181, 181);
+            height: 60px;
+            padding-top: 40px;
+            
+        }
+        .navbar2 a{
+            color: white;
+            padding: 30px;
+
+        }
+       .Home{
+        border: 5px solid red;
+        border-radius: 10px;
+        }
+        .About_Us{
+            border: 5px dashed blue;
+            border-radius: 10px;
+        }
+        .Contact{
+            border: 5px dotted green;
+            border-radius: 10px;
+        }
+        .Blog{
+            border: 5px double purple;
+            border-radius: 10px;
+        }
+        .login{
+            border: 8px groove orange;
+            border: radius 10px;
+        }
+        .circular img{
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            object-fit:fill;
+            border: 5px solid rgb(10, 15, 18);
+        }
+        .Google_Fonts_logo{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .heading{
+            font-family: oswald;
+            font-size: 50px;
+        }
+        .Google_Fonts_logo img{
+            width: 300px;
+            height: 150px;
+            margin-top: -20px;
+        }
+        h2{
+           text-align: center;
+        }
+        .about{
+            border: 5px solid rgb(0, 0, 0);
+            height: 300px;
+        }
+        .about img{
+            height: 200px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+        .card{
+            background-color:aquamarine;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .card p{
+            text-align: center;
+            padding: 5px;
+            padding-bottom: 5px; ;
+        }
+        .card img{
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            padding-left: 25px;
+            padding-top: 10px;
+            border-radius: 40px;
+        }
+        .card:hover{
+            opacity: 50%;
+            cursor: pointer;
+            
+        }
+        .list{
+            border: 4px solid rgb(0, 0, 0);
+        }
+    </style>
+    <h3> 1. Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5
+navigation links that are properly placed within the navigation bar using the CSS box model. The navigation
+items must change their text color on hover.</h3>
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Contact</a>
+        <a href="">Blog</a>
+        <a href="">login</a>
+    </div><br><br>
+    <h3>2.Create a div centered with an image and paragraph similar to the image mentioned below.</h3>
+   <div class="cntered">
+     <div class="centered">
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=pexels-asadphoto-457882.jpg&fm=jpg" alt="">
+            <p><b>Holiday Place</b> : BEACH</p>
+     </div>
+   </div>
+   <h3>3.Create a navigation bar similar to question 1. For each navigation item, use a different border style.</h3>
+   <div class="navbar2">
+    <a class="Home" href="">Home</a>
+    <a class="About_Us" href="">About Us</a>
+    <a class="Contact" href="">Contact</a>
+    <a class="Blog" href="">Blog</a>
+    <a class="login" href="">login</a>
+   </div>
+   <h3>4.Create a simple webpage with an image and make the image circular using border-radius.</h3>
+   <div class="circular">
+    <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=pexels-asadphoto-457882.jpg&fm=jpg" alt="">
+   </div>
+   <h3>5. Create a simple blog website about Google fonts. The webpage must have the heading with “Oswald” font
+align center to the page, below the heading have an image of Google fonts and a paragraph about Google
+fonts in font “Montserrat” paragraph font style should be“montserrat” font.</h3>
+    <div class="Google_Fonts_logo">
+        <h1 class="heading">Google Fonts</h1>
+        <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" alt="">
+        <p>Google Fonts is a free and open-source web font library developed by Google. It offers hundreds of font families that can be easily embedded into websites, allowing developers and designers to enhance typography without worrying about licenses or hosting. With easy-to-use links and customizable font weights, Google Fonts makes it simple to improve the readability and style of your web content.</p>
+    </div><br>
+    <div><h3>6.Create a simple website as mentioned in the below image. You can get the assets by visiting</h3></div>
+    <div class="about">
+        <h2>About Us</h2>
+        <p>PW Skills' mission is to permeate through every student/professional's outlook towards jobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can Do It". We aim to do this by providing exceptional up skilling courses at affordable rates, while being tech-forward so anyone, anywhere can access and improve their ability to be successful in life.</p>
+        <img src="" alt="">
+    </div>
+        <h3>7.Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as
+default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output.</h3>
+<div class="card">
+    <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=pexels-asadphoto-457882.jpg&fm=jpg" alt="">
+    <p><b>Holiday Place</b>BEACH</p>
+</div>
+<h3>8.Create a simple list of items as mentioned in the below image.</h3>
+<div class="list">
+    <h3 class="require">Requirements</h3>
+    <ol>
+        <li>System with minimun i3 processor or better.</li>
+        <li>At least 4 GB of RAM.</li>
+        <li>Working internet connection</li>
+        <li>Dedication to learn</li>
+    </ol>
+</div>
+</body>
+</html>
